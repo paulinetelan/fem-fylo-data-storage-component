@@ -86,11 +86,22 @@ body {
 .storage-popup {
   background-color: #ffff;
   border-radius: 5px;
+  border-bottom-right-radius: 0;
   text-align: center;
   position:absolute;
   top: -50px;
   right: 8%;
   z-index: 1;
+}
+
+.storage-popup::after {
+  content: ' ';
+  border: 15px solid transparent;
+  border-right-color: #ffff;
+  border-top-color: #ffff;
+  position: absolute;
+  bottom: -20px;
+  right: 0;
 }
 
 .popup-text {
