@@ -19,6 +19,10 @@ body {
   height: 100vh;
 }
 
+.middle {
+  width: 100%;
+}
+
 .nav-btn {
   background-color: hsl(229, 57%, 11%);
   border-style: none;
@@ -31,16 +35,17 @@ body {
   margin-right: 5%;
 }
 
-.fylo-main {
+.left-container {
   background-color: hsl(228, 56%, 26%);
   border-radius: 10px 100px 10px 10px;
 }
 
 /* Right container */
 
-.storage {
+.right-container {
   background-color: hsl(228, 56%, 26%);
   border-radius: 10px;
+  height: 50%;
 }
 
 /* Progress Bar */
@@ -114,3 +119,7 @@ body {
 .dark {
   color: hsl(229, 57%, 11%);
 }
+
+/* Attribution  */
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: #F1CFCD; }
