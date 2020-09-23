@@ -1,0 +1,25 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-color: hsl(229, 57%, 11%);
+  background-image: url("images/bg-desktop.png");
+  background-origin: border-box;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  color: #ffff;
+  min-height:100%;
+}
+
+.container {
+  height: 100vh;
+}
+
+.fylo-main {
+  background-color: hsl(228, 56%, 26%);
+}
+
+.storage {
+  background-color: red;
+}
