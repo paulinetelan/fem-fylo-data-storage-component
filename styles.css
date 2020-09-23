@@ -8,8 +8,11 @@ body {
   background-origin: border-box;
   background-position: bottom right;
   background-repeat: no-repeat;
-  color: #ffff;
-  min-height:100%;
+  color: hsl(243, 100%, 93%);
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.05rem;
+  min-height: 100%;
 }
 
 .container {
@@ -34,5 +37,29 @@ body {
 }
 
 .storage {
-  background-color: red;
+  background-color: hsl(228, 56%, 26%);
+  border-radius: 10px;
+}
+
+.progress {
+  background-color: hsl(229, 57%, 11%);
+  border-radius: 50px;
+  height: 20px;
+}
+
+.progress-bar {
+  background: linear-gradient(to right, hsl(6, 100%, 80%) 0%, hsl(335, 100%, 65%) 75%);
+  border-radius: 50px;
+}
+
+.progress-text {
+  color: hsl(243, 100%, 93%);
+  font-family: "Raleway", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.05rem;
+}
+
+.progress-text.right {
+  text-align: right;
 }
