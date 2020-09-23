@@ -16,8 +16,21 @@ body {
   height: 100vh;
 }
 
+.nav-btn {
+  background-color: hsl(229, 57%, 11%);
+  border-style: none;
+  border-radius: 20%;
+  height: 50px;
+  width: 50px;
+}
+
+.nav-item {
+  margin-right: 5%;
+}
+
 .fylo-main {
   background-color: hsl(228, 56%, 26%);
+  border-radius: 10px 100px 10px 10px;
 }
 
 .storage {
