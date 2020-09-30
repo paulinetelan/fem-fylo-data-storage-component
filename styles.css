@@ -37,7 +37,6 @@ body {
 }
 
 /* Right container */
-
 .right-container {
   background-color: hsl(228, 56%, 26%);
   border-radius: 10px;
@@ -45,7 +44,6 @@ body {
 }
 
 /* Progress Bar */
-
 .progress {
   background-color: hsl(229, 57%, 11%);
   border-radius: 50px;
@@ -83,16 +81,16 @@ body {
 }
 
 /* Popup */
-
 .storage-popup {
   background-color: #ffff;
   border-radius: 5px;
   border-bottom-right-radius: 0;
   text-align: center;
-  position:absolute;
+  position: absolute;
   top: -50px;
   right: 8%;
   z-index: 1;
+
 }
 
 .popup-text {
@@ -107,34 +105,46 @@ body {
 }
 
 /* Attribution  */
-  .attribution { font-size: 11px; text-align: center; }
-  .attribution a { color: #F1CFCD; }
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
 
-  /* Medium to XL devices only */
-  @media (min-width: 768px) {
+.attribution a {
+  color: #F1CFCD;
+}
 
-    .middle {
-      width: 100%;
-    }
-    .storage-popup::after {
-      content: ' ';
-      border: 15px solid transparent;
-      border-right-color: #ffff;
-      border-top-color: #ffff;
-      position: absolute;
-      bottom: -20px;
-      right: 0;
-    }
+/* Medium to XL devices only */
+@media (min-width: 768px) {
+  .middle {
+    width: 100%;
   }
 
-  /* Small devices only */
-  @media (max-width: 768px){
-    .storage-popup {
-      border-bottom-right-radius: 5px;
-      width: 50%;
-      top: 80%;
-      left: 25%;
-      z-index: 1;
-    }
-
+  .storage-popup::after {
+    content: ' ';
+    border: 15px solid transparent;
+    border-right-color: #ffff;
+    border-top-color: #ffff;
+    position: absolute;
+    bottom: -20px;
+    right: 0;
   }
+}
+
+/* Small devices only */
+@media (max-width: 768px) {
+  .storage-popup {
+    border-bottom-right-radius: 5px;
+    width: 50%;
+    top: 80%;
+    left: 25%;
+    z-index: 1;
+  }
+
+  h1.popup-text {
+    font-size: 2.2rem;
+  }
+  p.popup-text {
+    font-size: 0.80rem;
+  }
+}
