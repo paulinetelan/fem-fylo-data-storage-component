@@ -95,34 +95,6 @@ body {
   z-index: 1;
 }
 
-/* Medium to XL devices only */
-@media (min-width: 768px) {
-
-  .middle {
-    width: 100%;
-  }
-  .storage-popup::after {
-    content: ' ';
-    border: 15px solid transparent;
-    border-right-color: #ffff;
-    border-top-color: #ffff;
-    position: absolute;
-    bottom: -20px;
-    right: 0;
-  }
-}
-
-/* Small devices only */
-@media (max-width: 768px){
-  .storage-popup {
-    border-bottom-right-radius: 5px;
-    width: 50%;
-    top: 80%;
-    left: 25%;
-    z-index: 1;
-  }
-}
-
 .popup-text {
   display: inline;
   color: hsl(229, 7%, 55%);
@@ -137,3 +109,32 @@ body {
 /* Attribution  */
   .attribution { font-size: 11px; text-align: center; }
   .attribution a { color: #F1CFCD; }
+
+  /* Medium to XL devices only */
+  @media (min-width: 768px) {
+
+    .middle {
+      width: 100%;
+    }
+    .storage-popup::after {
+      content: ' ';
+      border: 15px solid transparent;
+      border-right-color: #ffff;
+      border-top-color: #ffff;
+      position: absolute;
+      bottom: -20px;
+      right: 0;
+    }
+  }
+
+  /* Small devices only */
+  @media (max-width: 768px){
+    .storage-popup {
+      border-bottom-right-radius: 5px;
+      width: 50%;
+      top: 80%;
+      left: 25%;
+      z-index: 1;
+    }
+
+  }
