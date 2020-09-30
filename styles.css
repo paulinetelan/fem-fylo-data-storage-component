@@ -10,7 +10,7 @@ body {
   background-repeat: no-repeat;
   color: hsl(243, 100%, 93%);
   font-family: "Raleway", sans-serif;
-  font-size: 14px;
+  font-size: 0.875rem;
   letter-spacing: 0.05rem;
   min-height: 100%;
 }
@@ -20,7 +20,6 @@ body {
 }
 
 .nav-btn {
-  background-color: hsl(229, 57%, 11%);
   border-style: none;
   border-radius: 20%;
   height: 50px;
@@ -31,21 +30,27 @@ body {
   margin-right: 5%;
 }
 
-.left-container {
+.dark-blue-background {
   background-color: hsl(228, 56%, 26%);
+}
+
+.v-dark-blue-background {
+  background-color: hsl(229, 57%, 11%);
+}
+
+.left-container {
   border-radius: 10px 100px 10px 10px;
 }
 
 /* Right container */
 .right-container {
-  background-color: hsl(228, 56%, 26%);
   border-radius: 10px;
   height: 50%;
 }
 
+
 /* Progress Bar */
 .progress {
-  background-color: hsl(229, 57%, 11%);
   border-radius: 50px;
   height: 20px;
   position: relative;
